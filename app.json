@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Perffect Digital Mart",
+    "slug": "perffect-digital-mart",
+    "version": "1.0.18",
+    "orientation": "portrait",
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "icon": "./assets/Perffect_Mart_Logo.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain",
+      "ldpi": "assets/Perffect_Mart_Splash_.png",
+      "mdpi": "assets/Perffect_Mart_Splash_.png",
+      "hdpi": "assets/Perffect_Mart_Splash_.png",
+      "xhdpi": "assets/Perffect_Mart_Splash_.png",
+      "xxhdpi": "assets/Perffect_Mart_Splash_.png",
+      "xxxhdpi": "assets/Perffect_Mart_Splash_.png"
+    },
+   
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.perffectdigitalmart",
+      "buildNumber": "1.0.14",
+      "infoPlist": {
+        
+        "CFBundleDisplayName": "Perffect Digital Mart",
+        "NSCameraUsageDescription": "This app uses the camera for profile of store & business card .",
+        "NSPhotoLibraryUsageDescription":"This app uses the photo library for profile of store & business card .",
+        "NSPhotoLibraryAddUsageDescription":"This app uses the photo library for profile of store & business card ."
+   
+
+      },
+      "splash": {
+        "image": "assets/Perffect_Mart_Splash_.png",
+        "resizeMode": "cover"
+      }
+    },
+    "android": {
+      "googleServicesFile": "./assets/google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Perffect_Mart_Logo.png"
+      },
+      "splash": {
+        "backgroundColor": "#ffffff",
+        "resizeMode": "contain",
+        "ldpi": "assets/Perffect_Mart_Splash_.png",
+        "mdpi": "assets/Perffect_Mart_Splash_.png",
+        "hdpi": "assets/Perffect_Mart_Splash_.png",
+        "xhdpi": "assets/Perffect_Mart_Splash_.png",
+        "xxhdpi": "assets/Perffect_Mart_Splash_.png",
+        "xxxhdpi": "assets/Perffect_Mart_Splash_.png"
+      },
+      "useNextNotificationsApi": true,
+      "package": "com.perffectdigitalmart",
+      "versionCode": 18,
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

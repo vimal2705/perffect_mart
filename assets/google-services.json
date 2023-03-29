@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "68570693732",
+    "project_id": "perfect-mart",
+    "storage_bucket": "perfect-mart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68570693732:android:0c14220138771e6aa3df71",
+        "android_client_info": {
+          "package_name": "com.perffectdigitalmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68570693732-nel51qt63mt77o4o9pe2bgjdohqlgse6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh_anj5rOymPciGL9lAnZDV7Y_gdEgRhs"
+        }
+        
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68570693732-nel51qt63mt77o4o9pe2bgjdohqlgse6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
